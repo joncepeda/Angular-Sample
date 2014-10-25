@@ -13,8 +13,8 @@ demoApp.config(['$routeProvider', function ($routeProvider){
 		})
 		.otherwise({ redirectTo : '/view1'});
 }]);
-	demoApp.controller('SimpleController',['$scope','http',function ($scope,$http){
-		http.get('js/dataRecords.json').success(function(data){
+	demoApp.controller('SimpleController',['$scope','$http',function ($scope,$http){
+		$http.get('js/dataRecords.json').success(function(data){
 			$scope.customers = data;
 	});
 
