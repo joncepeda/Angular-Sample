@@ -1,6 +1,6 @@
 [
-	{name:'Jon',city:'Makati City'},
-	{name:'Jeszza',city:'Makati City'},
-	{name:'Gelo',city:'Caloocan City'},
-	{name:'Shaw',city:'Pasig City'}
-];
+	{"name":"Jon","city":"Makat City"},
+	{"name":"Jeszza","city":"Makati City"},
+	{"name":"Gelo","city":"Caloocan City"},
+	{"name":"Shaw","city":"Pasig City"}
+]

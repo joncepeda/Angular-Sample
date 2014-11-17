@@ -1,18 +1,18 @@
 <div>
 <h2>View 1</h2>
 	<div>
-		Name: <input type="text" ng-model="filter.name">{{ name }}		
+		Name: <input type="text" ng-model="filter.name">{{ filter.name }}		
 		<br />
 		<ul>
 			<li ng-repeat="cust in customers | filter:filter.name | orderBy:'city'">{{ cust.name }} - {{ cust.city }}</li>
 		</ul>
 	</div>
 	<div>
-		Customer Name : <input type = "text" ng-model="newCustomer.name" />
+		Customer Name : <input type = "text" ng-model="newCustomer.name" /> {{shit}}
 		<br />
 		Customer City: <input type="text" ng-model="newCustomer.city" />
-
-		<button ng-click="addCustomer()">Add Customer</button>
+			<button ng-click="addCustomer()">Add Customer</button>
+		
 		<br />
 		<a href="#/view2">View 2</a>
 	</div>
